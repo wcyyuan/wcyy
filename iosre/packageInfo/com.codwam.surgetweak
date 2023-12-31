@@ -4,6 +4,6 @@
 	"desc_long": "",
 	"compatitle": null,
 	"changelog": "<strong>0.1</strong><br>- Surge 5.2.3 Crack;<br>",
-	"screenshot": "<div style='text-align:center;'><a href='../iosre/debimages/Surge.PNG' target='_blank'><img width=95% src='../iosre/debimages/Surge.PNG'/></a><br></div>",
+	"screenshot": "<div style='text-align:center; margin:0; padding:0;' width='100%' height='100%'><a href='../iosre/debimages/Surge.PNG' target='_blank'><img width=95% src='../iosre/debimages/Surge.PNG'/></a><br></div>",
 	"open": true,
 }

@@ -1,7 +1,7 @@
 #!/bin/sh
 
 uNames=`uname -s`
-echo $uNames
+echo "OS: $uNames"
 osName=${uNames:0:4} # Linux 需要用 bash update.sh 否则会报错: ./update.sh: 5: Bad substitution
 if [ "$osName" == "Darw" ] # Darwin
 then
@@ -44,5 +44,4 @@ else
 	echo "unknown os"
 fi
 
-echo "end";
 exit 0;
