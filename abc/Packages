@@ -221,4 +221,7 @@ Description: Video Buffer System for AVPlayer
 Name: AVCache
 Author: julioverne
 Depiction: https://julioverne.github.io/description.html?id=com.julioverne.avcache
+Icon: file:///Library/PreferenceBundles/AutoWallSettings.bundle/icon@2x.png
+Maintainer: Lihui
+
 
