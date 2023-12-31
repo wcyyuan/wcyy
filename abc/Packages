@@ -1,18 +1,17 @@
-Package: com.julioverne.adblock
+Package: com.julioverne.albumhider
 Architecture: iphoneos-arm
-Version: 0.2~beta1
+Version: 0.0~beta3
 Section: Tweaks
 Maintainer: Julio
 Depends: mobilesubstrate
-Filename: ./debfiles/com.julioverne.adblock_0.2~beta1_iphoneos-arm.deb
-Size: 10002
-MD5sum: 101ab904d484419893048fd6f98b5ccc
-SHA1: f096100ee2cea682486d484f41def64e60950156
-SHA256: 2573086d20612f845b245b999088a4c1d00adea8c55ec87e628473a0b936eca9
-SHA512: ac12350c471e261e8406a4eb267e5fb3451d6004c1f7f9c3357a055f0fa1455797f4284cb94cf043b7c51853b935821cc211a012c6da87e08caf43273f823502
-Homepage: https://twitter.com/ijulioverne
-Description: ADs Blocker for Apps.. Note: may not load page or app crash.
-Name: ADs Blocker
+Filename: ./debfiles/com.julioverne.albumhider_0.0~beta3_iphoneos-arm.deb
+Size: 37134
+MD5sum: 50711b9320b7c41f6a30d912e4338c35
+SHA1: ebdf85f49413a138beb5e1df9e990b55bc48b92c
+SHA256: fe4ccf8376a16480fe44d94b285a116e86f086ca519bb3118e00bc021f1a04f0
+SHA512: 5b01a47a7f889b004e3bfd647c94e64237626216ec560d722a99633f153f84c808c02624a10cfe806d7768593883ca3ba4f757d912eb882ee48bbe850970b75f
+Description: Hide Album's On Photo App
+Name: AlbumHider
 Author: julioverne
-Depiction: https://julioverne.github.io/description.html?id=com.julioverne.adblock
+Depiction: https://julioverne.github.io/description.html?id=com.julioverne.albumhider
 
