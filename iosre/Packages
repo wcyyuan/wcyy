@@ -5,7 +5,7 @@ Section: Tweaks
 Maintainer: codwam
 Installed-Size: 368
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debfiles/com.codwam.surgetweak_0.1_iphoneos-arm.deb
+Filename: ./iosre/debfiles/com.codwam.surgetweak_0.1_iphoneos-arm.deb
 Size: 80244
 MD5sum: 15e0d749f15d170272571f960c934b66
 SHA1: 03a6c16bec41f4e19d84b6e199ce41a5a6d4e45a
