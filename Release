@@ -1,0 +1,11 @@
+Origin: codwam's Repo
+Label: codwam
+Suite: stable
+Version: 1.0
+Codename: codwam
+Architecture: iphoneos-arm
+Components: main
+Description: codwam's Tweaks
+MD5Sum:
+ bc500d35628d46983fa26cfc6e9e9d8c 606 Packages
+ c5d737fe75bed4b19fc10bded5bb5a98 449 Packages.bz2
