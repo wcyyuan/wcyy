@@ -200,10 +200,6 @@ exclude:
   - /screenshots
   - /test
   - /vendor
-  - /iosre/404.html
-  # - /iosre/index.html
-  - /iosre/index.markdown
-  - /iosre/_posts/
 
 keep_files:
   # - iosre/404.html
