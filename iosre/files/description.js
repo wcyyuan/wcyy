@@ -40,7 +40,7 @@ function loadPackageInfo() {
 	var form_url = current_url_path+"/packageInfo/"+urlSelfParts[1];
 	if (navigator.userAgent.search(/Cydia/) == -1) {
 		$("#showAddRepo_").show();
-		$("#open_cydia").attr("href","cydia://url/https://cydia.saurik.com/api/share#?source=https://codwam.github.io/&package="+urlSelfParts[1]);
+		$("#open_cydia").attr("href","cydia://url/https://cydia.saurik.com/api/share#?source=https://codwam.github.io/iosre/&package="+urlSelfParts[1]);
 	}
 	$.ajax({
 		url: form_url,
