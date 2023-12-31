@@ -1,75 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>codwam's Repo</title>
-	<noscript>
-		<link rel="stylesheet" href="./files/ios7.min.css?_=sss" type="text/css" />
-	</noscript>
-	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0">
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<meta charset="utf-8">
+  <head>
+    <title>codwam's Repo</title>
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="./files/ios7.min.css?_=sss"
+        type="text/css"
+      />
+    </noscript>
+    <meta
+      name="viewport"
+      content="initial-scale=1, maximum-scale=1, user-scalable=0"
+    />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8" />
 
-	<link rel="stylesheet" href="./files/main.css" type="text/css" />
-</head>
-<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-<script src="./files/description.js?_=sss"></script>
-<body onload="loadPackages();">
-	<main id="content">
-		<h2 role="header">codwam's Repo</h2>
-		<ul>
-			<li class="has-icon">
-				<div class="row" >
-					<div class="column">
-						<center><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://codwam.github.io/iosre/">
-							<img style = "border-radius: 20%; margin-left:5%;" width="29" href="./files/cydia7.png" alt="" srcset="./files/cydia7.png 2x, ./files/cydia7.png 3x"/>
-							<br/>
-							<label style = "border-radius: 20%; margin-left:5%;">Open Cydia</label>
-						</a></center>
-					</div>
-					<div class="column">
-						<center><a href="zbra://sources/add/https://codwam.github.io/iosre/" >
-							<img style = "border-radius: 20%; margin-left:5%;" width="29" href="./files/zebra.png" alt="" srcset="./files/zebra.png 2x, ./files/zebra.png 3x"/>
-							<br/>
-							<label style = "border-radius: 20%; margin-left:5%;">Open Zebra</label>
-						</a></center>
-					</div>
-					<div class="column">
-						<center><a href="sileo://source/https://codwam.github.io/iosre/" >
-							<img style = "border-radius: 20%; margin-left:5%;" width="29" href="./files/sileo.png" alt="" srcset="./files/sileo.png 2x, ./files/sileo.png 3x"/>
-							<br/>
-							<label style = "border-radius: 20%; margin-left:5%;">Open Sileo</label>
-						</a></center>
-					</div>
-					<div class="column">
-						<center><a href="apt-repo://https://codwam.github.io/iosre/" >
-							<img style = "border-radius: 20%; margin-left:5%;" width="29" href="./files/saily.png" alt="" srcset="./files/saily.png 2x, ./files/saily.png 3x" class="separat"/>
-							<br/>
-							<label style = "border-radius: 20%; margin-left:5%;">Open Saily</label>
-						</a></center>
-					</div>
-				</div>
-			</li>
-		</ul>
-		<p style="text-align: center; font-size: 85%;" role="footer" id="neo">Repo: https://codwam.github.io/iosre/</p>
-		<noscript>
-			<h2></h2><ul style="background:#ff0000"><center><li><p>Error JavaScript Disabled.</p></li></center></ul>
-		</noscript>
-		<span id="updates_" hidden><h2 role="header">Last Updates</h2><ul id="updates"></ul></span>
-		<span id="browser_" hidden><h2 role="header">Browse Packages</h2><ul id="browser"><li class="has-icon">
-				<a onClick="loadMainSection();" role="button">
-					<img style = "border-radius: 20%;" href="./files/package.png" alt="" srcset="./files/package.png 2x, ./files/package.png 3x" class="icon"/>
-					<label>View All Packages</label>
-				</a>
-		</li></ul></span>
-		<h2 role="header">Social</h2>
-		<ul>
-			<li class="has-icon">
-				<a href="https://github.com/codwam" target="_blank" role="button">
-					<img style = "border-radius: 20%;" href="./files/github.png" alt="" srcset="./files/github.png 2x, ./files/github.png 3x" class="icon"/>
-					<label>GitHub</label>
-				</a>
-			</li>
-			<!-- <li class="has-icon">
+    <link rel="stylesheet" href="./files/main.css" type="text/css" />
+  </head>
+  <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="./files/description.js?_=sss"></script>
+  <body onload="loadPackages();">
+    <main id="content">
+      <h2 role="header">codwam's Repo</h2>
+      <ul>
+        <li class="has-icon">
+          <div class="row">
+            <div class="column">
+              <center>
+                <a
+                  href="cydia://url/https://cydia.saurik.com/api/share#?source=https://codwam.github.io/iosre/"
+                >
+                  <img
+                    style="border-radius: 20%; margin-left: 5%"
+                    width="29"
+                    href="./files/cydia7.png"
+                    alt=""
+                    srcset="./files/cydia7.png 2x, ./files/cydia7.png 3x"
+                  />
+                  <br />
+                  <label style="border-radius: 20%; margin-left: 5%"
+                    >Open Cydia</label
+                  >
+                </a>
+              </center>
+            </div>
+            <div class="column">
+              <center>
+                <a href="zbra://sources/add/https://codwam.github.io/iosre/">
+                  <img
+                    style="border-radius: 20%; margin-left: 5%"
+                    width="29"
+                    href="./files/zebra.png"
+                    alt=""
+                    srcset="./files/zebra.png 2x, ./files/zebra.png 3x"
+                  />
+                  <br />
+                  <label style="border-radius: 20%; margin-left: 5%"
+                    >Open Zebra</label
+                  >
+                </a>
+              </center>
+            </div>
+            <div class="column">
+              <center>
+                <a href="sileo://source/https://codwam.github.io/iosre/">
+                  <img
+                    style="border-radius: 20%; margin-left: 5%"
+                    width="29"
+                    href="./files/sileo.png"
+                    alt=""
+                    srcset="./files/sileo.png 2x, ./files/sileo.png 3x"
+                  />
+                  <br />
+                  <label style="border-radius: 20%; margin-left: 5%"
+                    >Open Sileo</label
+                  >
+                </a>
+              </center>
+            </div>
+            <div class="column">
+              <center>
+                <a href="apt-repo://https://codwam.github.io/iosre/">
+                  <img
+                    style="border-radius: 20%; margin-left: 5%"
+                    width="29"
+                    href="./files/saily.png"
+                    alt=""
+                    srcset="./files/saily.png 2x, ./files/saily.png 3x"
+                    class="separat"
+                  />
+                  <br />
+                  <label style="border-radius: 20%; margin-left: 5%"
+                    >Open Saily</label
+                  >
+                </a>
+              </center>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <p style="text-align: center; font-size: 85%" role="footer" id="neo">
+        Repo: https://codwam.github.io/iosre/
+      </p>
+      <noscript>
+        <h2></h2>
+        <ul style="background: #ff0000">
+          <center>
+            <li><p>Error JavaScript Disabled.</p></li>
+          </center>
+        </ul>
+      </noscript>
+      <span id="updates_" hidden
+        ><h2 role="header">Last Updates</h2>
+        <ul id="updates"></ul
+      ></span>
+      <span id="browser_" hidden
+        ><h2 role="header">Browse Packages</h2>
+        <ul id="browser">
+          <li class="has-icon">
+            <a onClick="loadMainSection();" role="button">
+              <img
+                style="border-radius: 20%"
+                href="./files/package.png"
+                alt=""
+                srcset="./files/package.png 2x, ./files/package.png 3x"
+                class="icon"
+              />
+              <label>View All Packages</label>
+            </a>
+          </li>
+        </ul></span
+      >
+      <h2 role="header">Social</h2>
+      <ul>
+        <li class="has-icon">
+          <a href="https://github.com/codwam" target="_blank" role="button">
+            <img
+              style="border-radius: 20%"
+              href="./files/github.png"
+              alt=""
+              srcset="./files/github.png 2x, ./files/github.png 3x"
+              class="icon"
+            />
+            <label>GitHub</label>
+          </a>
+        </li>
+        <!-- <li class="has-icon">
 				<a href="https://www.reddit.com/user/codwam" target="_blank" role="button">
 					<img style = "border-radius: 20%;" href="./files/reddit.png" alt="" srcset="./files/reddit.png 2x, ./files/reddit.png 3x" class="icon"/>
 					<label>Reddit</label>
@@ -87,9 +164,9 @@
 					<label>Patreon</label>
 				</a>
 			</li> -->
-		</ul>
-		
-		<!-- <h2 role="header">Sideload ur Jailbreak Client</h2>
+      </ul>
+
+      <!-- <h2 role="header">Sideload ur Jailbreak Client</h2>
 		<ul>
 			<li class="has-icon">
 				<a href="https://ipawind.com?ref=74266" target="_blank" role="button">
@@ -98,10 +175,10 @@
 				</a>
 			</li>
 		</ul> -->
-		
-		<!-- <h2 role="header">Donate / Help</h2>
+
+      <!-- <h2 role="header">Donate / Help</h2>
 		<ul> -->
-			<!--li>
+      <!--li>
 				<center>
 				<p>via <b style="color:blue">Pay</b><b style="color:#668cff">Pal</b></p><br/>
 				<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -112,7 +189,7 @@
 				</form>
 				</center>
 			</li-->
-			<!-- <li class="has-icon">
+      <!-- <li class="has-icon">
 				
 				<center>
 				<img style = "border-radius: 20%;" href="./files/btc.png" alt="" srcset="./files/btc.png 2x, ./files/btc.png 3x" class="icon"/>
@@ -129,24 +206,40 @@
 			</li>
 		</ul> -->
 
-		<!--打赏-->
-        <div class="reward">
-       		<div class="reward-button">赏
-				<span class="reward-code">
-					<span class="alipay-code"> <img class="alipay-img wdp-appear" src="./files/alipay.png" /><b>支付宝打赏</b> </span>
-					<span class="wechat-code"> <img class="wechat-img wdp-appear" src="./files/wechatpay.png" /><b>微信打赏</b> </span>
-				</span>
-       		</div>
-<!--      		<p class="reward-notice">如果文章对你有帮助，欢迎点击上方按钮打赏作者</p>-->
-      	</div>
-      	<!--打赏-->
+      <!--打赏-->
+      <div class="reward">
+        <div class="reward-button">
+          赏
+          <span class="reward-code">
+            <span class="alipay-code">
+              <img class="alipay-img wdp-appear" src="./files/alipay.png" /><b
+                >支付宝打赏</b
+              >
+            </span>
+            <span class="wechat-code">
+              <img
+                class="wechat-img wdp-appear"
+                src="./files/wechatpay.png"
+              /><b>微信打赏</b>
+            </span>
+          </span>
+        </div>
+        <!-- <p class="reward-notice">如果文章对你有帮助，欢迎点击上方按钮打赏作者</p> -->
+      </div>
+      <!--打赏-->
 
-<!--		<p align="center" style="margin:0;"><a onclick="toogleTheme();" role="button"><img width="32" height="32" src="./files/DarkMode-Light.png" id="toggleDark"/></a></p>-->
-	</main>
+      <!--		<p align="center" style="margin:0;"><a onclick="toogleTheme();" role="button"><img width="32" height="32" src="./files/DarkMode-Light.png" id="toggleDark"/></a></p>-->
+    </main>
 
-<!--	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>-->
-<!--    <p align="center"><span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span></p>-->
-	
-	<p style="text-align: center; font-size: 85%; margin-top: 10px;" role="footer" id="copyright">codwam © 2022</p>
-</body>
+    <!--	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>-->
+    <!--    <p align="center"><span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span></p>-->
+
+    <p
+      style="text-align: center; font-size: 85%; margin-top: 10px"
+      role="footer"
+      id="copyright"
+    >
+      codwam © 2024
+    </p>
+  </body>
 </html>

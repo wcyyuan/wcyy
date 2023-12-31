@@ -157,7 +157,7 @@ function loadRecentUpdates()
 		if (navigator.userAgent.search(/Cydia/) == -1) {
 			var current_url_path = window.location.href.slice(0, window.location.href.lastIndexOf('/'));
 			urlOpen = current_url_path+"/description.html?id="+allPackages[dicNow].package;
-		}				
+		}
 		htmlnews +=  "<li class=\"has-icon\"><a href='"+urlOpen+"' target='_blank' role=\"button\"><img style=\"border-radius: 20%;\" href=\"./files/"+encodeURI(allPackages[dicNow].section)+".png\" alt=\"\" srcset=\"./files/"+encodeURI(allPackages[dicNow].section)+".png 2x, ./files/"+encodeURI(allPackages[dicNow].section)+".png 3x\" class=\"icon\"/><label>"+allPackages[dicNow].name+" v"+allPackages[dicNow].version+"</label></a></li>";
 	}
 	$("#updates").html(htmlnews);
@@ -174,7 +174,6 @@ function loadPackages() {
 			allPackages = eval('('+returnhtml+')');
 			var htmlnews = "";
 			for (var dicNow in allPackages) {
-				
 				var section = allPackages[dicNow].section;
 				if(section==null) {
 					section = "Unknown";
