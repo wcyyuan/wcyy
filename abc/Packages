@@ -209,6 +209,7 @@ Package: com.julioverne.avcache
 Architecture: iphoneos-arm
 Version: 0.0~beta2
 Section: Tweaks
+Maintainer: Julio
 Depends: mobilesubstrate
 Filename: ./debfiles/com.julioverne.avcache_0.0~beta2_iphoneos-arm.deb
 Size: 25482
@@ -220,8 +221,7 @@ Homepage: https://twitter.com/ijulioverne
 Description: Video Buffer System for AVPlayer
 Name: AVCache
 Author: julioverne
-Depiction: https://julioverne.github.io/description.html?id=com.julioverne.avcache
 Icon: file:///Library/PreferenceBundles/AutoWallSettings.bundle/icon@2x.png
-Maintainer: Lihui
+Depiction: https://julioverne.github.io/description.html?id=com.julioverne.avcache
 
 
