@@ -24,6 +24,7 @@ then
     "$(stat -f "%z" ./Packages)" Packages\n \
     "$(cat ./Packages.bz2 | md5 | cut -d ' ' -f 1)" \
     "$(stat -f "%z" ./Packages.bz2)" Packages.bz2\n"\
+    sed "s/    //g"\
      > Release;
     ls -t ./debfiles/ | \
     grep '.deb' | \
