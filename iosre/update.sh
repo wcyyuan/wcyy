@@ -12,7 +12,8 @@ then
     # perl -e 'print"HelloWorld\n"' # perl test
     bzip2 -c9k ./Packages > ./Packages.bz2;
     printf "Origin: codwam's Repo\n\
-    Label: codwam\nSuite: stable\n\
+    Label: codwam\n\
+    Suite: stable\n\
     Version: 1.0\n\
     Codename: codwam\n\
     Architecture: iphoneos-arm\n\
