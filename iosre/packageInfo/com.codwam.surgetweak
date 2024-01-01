@@ -2,8 +2,8 @@
 	"name": "SurgeTweak",
 	"desc_short": "Surge Crack",
 	"desc_long": "Surge Crack",
-	"compatitle": "iOS 11 through 14",
-	"changelog": "<strong>0.2</strong><br>- Surge 5.5.3 Crack;<br><strong>0.1</strong><br>- Surge 5.2.3 Crack;<br>",
-	"screenshot": "<div style='text-align:center;'><a href='./debimages/surge-5.5.3-hijacking.PNG' target='_blank'><img width=95% src='./debimages/surge-5.5.3-hijacking.PNG'/></a><a href='./debimages/surge-5.5.3-cracked.PNG' target='_blank' style='padding-left: 10%;'><img width=95% src='./debimages/surge-5.5.3-cracked.PNG'/></a></div>",
+	"compatitle": "iOS 9 and above",
+	"changelog": "<strong>0.2</strong><br>- Surge 5.5.3 Crack;<br /><br /><strong>0.1</strong><br>- Surge 5.2.3 Crack;<br>",
+	"screenshot": "<div style='text-align:center;'><a href='./debimages/surge-5.5.3-hijacking.PNG' target='_blank'><img width=95% src='./debimages/surge-5.5.3-hijacking.PNG'/></a><a href='./debimages/surge-5.5.3-cracked.PNG' target='_blank' style='padding: 10%;'><img width=95% src='./debimages/surge-5.5.3-cracked.PNG'/></a></div>",
 	"open": true
 }
