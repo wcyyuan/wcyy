@@ -210,7 +210,7 @@ Architecture: iphoneos-arm
 Version: 0.0~beta2
 Section: Tweaks
 Maintainer: Julio
-Depends: mobilesubstrate
+Depends: mobilesubstrate, preferenceloader
 Filename: ./debfiles/com.julioverne.avcache_0.0~beta2_iphoneos-arm.deb
 Size: 25482
 MD5sum: 3465a4397b0cefedc34ec2d90271dd22
