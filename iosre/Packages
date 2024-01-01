@@ -20,18 +20,18 @@ Architecture: iphoneos-arm
 Version: 0.2
 Section: Tweaks
 Maintainer: codwam
-Installed-Size: 704
+Installed-Size: 648
 Depends: mobilesubstrate
 Filename: ./debfiles/com.codwam.surgetweak_0.2_iphoneos-arm.deb
-Size: 202724
-MD5sum: 1ef278e7de16187c873314d81fd9126a
-SHA1: d8f7edbd67e7a21447fdf315c595cb7e62d39938
-SHA256: 89ceb20127af5ae890b8a38e0d8db8b84ad1b39f6b12c8509ab055e5c89f1217
-SHA512: 62213d0650d49404e3580e579e3f6fb82884ea147a0c6232fde945798566104246cfd476894201dee5f435a1db3967211d8f96336e3293f9ee4bd624a36eae13
+Size: 158542
+MD5sum: e4915d06c49b637f3595ad3fe25c77ad
+SHA1: 6873c3586e607ba115e18db5c886c47f1aa65542
+SHA256: 84d9b3b05310e0f60d74117cb641aeb12cb370a8b031d64c52ac2c5003eb928a
+SHA512: 372e18152423dbfdb714a3b45361337bd9e6196ab09c83b907069a3e961a046a056afd119e8d48a0b9914cb4d2d90267be5dee50979b9d2d8745669c66b05b44
 Homepage: https://codwam.github.io/
 Description: Surge Crack Unlimited use of license. (The versions tested include 5.2.3 and 5.5.3)
 Name: SurgeTweak
 Author: codwam
-Icon: file:///Library/PreferenceLoader/Preferences/DP/dg_logo.png
-Depiction: https://codwam.github.io/description.html?id=com.codwam.surgetweak
+Icon: file:///Library/PreferenceLoader/Preferences/DP/surgetweak_icon.png
+Depiction: https://codwam.github.io/iosre/description.html?id=com.codwam.surgetweak
 
