@@ -34,3 +34,20 @@ Author: julioverne
 Icon: file:///Library/PreferenceBundles/AutoWallSettings.bundle/icon@2x.png
 Depiction: https://julioverne.github.io/description.html?id=com.julioverne.autowall
 
+Package: com.julioverne.avcache
+Architecture: iphoneos-arm
+Version: 0.0~beta2
+Section: Tweaks
+Depends: mobilesubstrate
+Filename: ./debfiles/com.julioverne.avcache_0.0~beta2_iphoneos-arm.deb
+Size: 25482
+MD5sum: 3465a4397b0cefedc34ec2d90271dd22
+SHA1: 7bf4e6e9f8741d9fbfd94c5b34be468a5d962778
+SHA256: 14622e52873ea63ec4a325cb09ce9e987e7a30894811b1f11e46fa771621e24f
+SHA512: d72d1d2e7dcbde0848037e6c4b81ca7978830fe422ef81e028be6b7aed1b24b857f69ad261c7810bab582276501fe328bba4e40c8141df0053b3a045c257923e
+Homepage: https://twitter.com/ijulioverne
+Description: Video Buffer System for AVPlayer
+Name: AVCache
+Author: julioverne
+Depiction: https://julioverne.github.io/description.html?id=com.julioverne.avcache
+
