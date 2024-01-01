@@ -35,39 +35,3 @@ Author: codwam
 Icon: file:///Library/PreferenceLoader/Preferences/DP/dg_logo.png
 Depiction: https://codwam.github.io/description.html?id=com.codwam.surgetweak
 
-Package: com.julioverne.autowall
-Architecture: iphoneos-arm
-Version: 0.0~beta3
-Section: Tweaks
-Maintainer: Julio
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debfiles/com.julioverne.autowall_0.0~beta3_iphoneos-arm.deb
-Size: 135524
-MD5sum: 919e9772075a9997375ebc19ef6e11b9
-SHA1: 4b9a3118705dea9eb27116e98bb1e6d83e9ce62d
-SHA256: b194bc2f13c823c3a88bf1994a9f80e94f7b9d98244a9b3f91316344cba8d61d
-SHA512: 7f9d91421b267bd01b360b158ad7e4f85ce407ca303e0c7d36765b974d768176c557981a647e751ccca7c6f830772286482bd0ca1b1692a6b82d3380d14cc24c
-Homepage: https://twitter.com/ijulioverne
-Description: Scheduled Wallpapers
-Name: AutoWall
-Author: julioverne
-Icon: file:///Library/PreferenceBundles/AutoWallSettings.bundle/icon@2x.png
-Depiction: https://julioverne.github.io/description.html?id=com.julioverne.autowall
-
-Package: com.julioverne.avcache
-Architecture: iphoneos-arm
-Version: 0.0~beta2
-Section: Tweaks
-Depends: mobilesubstrate
-Filename: ./debfiles/com.julioverne.avcache_0.0~beta2_iphoneos-arm.deb
-Size: 25482
-MD5sum: 3465a4397b0cefedc34ec2d90271dd22
-SHA1: 7bf4e6e9f8741d9fbfd94c5b34be468a5d962778
-SHA256: 14622e52873ea63ec4a325cb09ce9e987e7a30894811b1f11e46fa771621e24f
-SHA512: d72d1d2e7dcbde0848037e6c4b81ca7978830fe422ef81e028be6b7aed1b24b857f69ad261c7810bab582276501fe328bba4e40c8141df0053b3a045c257923e
-Homepage: https://twitter.com/ijulioverne
-Description: Video Buffer System for AVPlayer
-Name: AVCache
-Author: julioverne
-Depiction: https://julioverne.github.io/description.html?id=com.julioverne.avcache
-
