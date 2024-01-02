@@ -37,10 +37,6 @@ titles:
 <br />
 技术网名： codwam (全拼 coldwarm，cold warm 冷暖)
 
-<br /><br />
-子曰：“古之学者为己，今之学者为人。”
-
-
 ## 联系方式
 
 <p class="contact">
@@ -51,3 +47,5 @@ titles:
   <!-- <a href="http://www.zhihu.com/people/lippi-ouyang" title="知乎联系我"><img src="http://www.zhihu.com/favicon.ico" width="24" height="24" style="display:inline-block;vertical-align:middle"></a><br/> -->
 </p>
 
+## 语录
+子曰：“古之学者为己，今之学者为人。”
