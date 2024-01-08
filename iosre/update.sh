@@ -1,6 +1,6 @@
 #!/bin/sh
 
-uNames=`uname -s`
+uNames=$(uname -s)
 echo "OS: $uNames"
 osName=${uNames:0:4} # Linux 需要用 bash update.sh 否则会报错: ./update.sh: 5: Bad substitution
 if [ "$osName" == "Darw" ] # Darwin
@@ -8,7 +8,7 @@ then
 	# echo "Mac OS X"
 
     ./apt-ftparchive packages ./debfiles/ > ./Packages; # macOS 修改版的会报错，但是也可以执行
-    sed -i '' -e 's/.\/debfiles\/\//.\/debfiles\//g' ./Packages; # 上面程序多余的出来的 //
+    sed -i '' -e 's/.\/debfiles\/\//.\/debfiles\//g' ./Packages; # 去掉上面程序多余的出来的 /
     # sed -i '' -e 's/.\/debfiles\//.\/iosre\/debfiles\//g' ./Packages;
     # perl -e 'print"HelloWorld\n"' # perl test
     bzip2 -c9k ./Packages > ./Packages.bz2;

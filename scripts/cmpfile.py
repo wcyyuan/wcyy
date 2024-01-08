@@ -3,7 +3,7 @@
 
 import os
 import os.path
-rootdir="/Users/anon/Development/GitHub/julioverne.github.io/debfiles/" #要查找的目录
+rootdir="/Users/anon/Development/GitHub/codwam.github.io/debfiles/" #要查找的目录
 
 result = []
 def findSame(parent,filenames,category):
