@@ -1,6 +1,6 @@
 ---
 title: 制作自己的 Cydia 源
-tags: cydia ios/re
+tags: writeup/2024-01-02 cydia ios/re
 ---
 
 <style>
@@ -158,12 +158,10 @@ chmod +x ./update.sh
 
 
 ### 4.3 最终的文件目录结构
-
 <details>
 	<summary>执行 tree 命令</summary>
 
-  ```bash
-  ~/Development/GitHub/codwam.github.io/iosre git:(master) ±4 >> tree
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  ~/Development/GitHub/codwam.github.io/iosre git:(master) ±4 >> tree
   .
   ├── CydiaIcon.png 
   ├── Packages 
@@ -226,8 +224,13 @@ chmod +x ./update.sh
   └── update.sh
 
   8 directories, 52 files
-  ```
+</code></pre></div></div>
+<br>
+
 </details>
+
+
+
 <!-- typora 还不支持折叠：https://github.com/typora/typora-issues/issues/499 -->
 
 <br>
@@ -241,8 +244,6 @@ chmod +x ./update.sh
 如果有兴趣，可以 fork 我的仓库 [codwam.github.io](https://github.com/codwam/codwam.github.io)，进去 iosre 的文件夹里面看看。
 
 <br>
-
-
 
 
 # 0x05 FAQ
